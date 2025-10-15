@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(
   cors({
-    origin: "https://personal-budget-tracker-phi.vercel.app/",
+    origin: "https://personal-budget-tracker-phi.vercel.app",
     credentials: true,
   })
 );
